@@ -6,7 +6,7 @@ exports.up = function(knex, Promise) {
       table.string('description');
       table.date('date_achieved');
     })
-  ])
+  ]);
 };
 
 exports.down = function(knex, Promise) {
